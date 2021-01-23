@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            NeuMorphism Calculator
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <section>
+            <h1>Calculator</h1>
+            <div class="calculator">
+                
+                <input type='text' class="results" value="" disabled></input>
+                <!--<input class="results">
+                    <input 
+                    type = "text" 
+                    class="results-text" 
+                    id="resultsId"
+                    value=""
+                    disabled></input>
+                </input>-->
+
+                <div class="calculator__keys">
+                    
+                    <button type="button" class="clear" value="all-clear">AC</button>
+                    <button type="button" class="divide operator" value="/">&#xf7;</button>
+                    <button type="button" class="multiply operator" id="multiply" value="*">&times;</button>
+
+                    <button type="button" class="seven" value="7">7</button>
+                    <button type="button" class="eight" value="8">8</button>
+                    <button type="button" class="nine" value="9">9</button>
+
+                    <button type="button" class="minus operator" id="minus" value="-">-</button>
+                    
+                    <button type="button" class="four" value="4">4</button>
+                    <button type="button" class="five" value="5">5</button>
+                    <button type="button" class="six" value="6">6</button>
+                    
+                    
+                    <button type="button" class="plus operator" id="plus" value="+">+</button>
+                    
+                    <button type="button" class="one" value="1">1</button>
+                    <button type="button" class="two" value="2">2</button>
+                    <button type="button" class="three" value="3">3</button>
+                    <button type="button" class="zero" value="0">0</button>
+
+                    <button type="button" class="period" id="period" value=".">.</button>
+                    <button type="button" class="equal-sign operator" id="equal" value="=">=</button>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <script src="script.js"></script>
+        <script src="jquery-3.5.1.js"></script>
+    </body>
+</html>
